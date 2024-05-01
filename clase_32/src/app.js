@@ -26,6 +26,7 @@ app.use(compression({
 }))
 
 
+
 //Declare routers:
 app.use("/compression", compressionRouter);
 app.use("/api/users", usersRouter);
