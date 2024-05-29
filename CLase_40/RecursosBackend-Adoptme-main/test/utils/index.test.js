@@ -29,8 +29,6 @@ describe('Test de la libreria de Encriptacion de Utils - bcrypt', () => {
         expect(result).not.to.be.null;
         expect(result).not.to.be.empty;
         expect(result).not.equal(passwordMock);
-
-
     })
 
 })
