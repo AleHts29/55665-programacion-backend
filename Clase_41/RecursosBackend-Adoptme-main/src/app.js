@@ -14,6 +14,8 @@ const PORT = process.env.PORT || 8080;
 const connection = mongoose.connect(`mongodb://localhost:27017/clase40-adoptme-test?retryWrites=true&w=majority`)
 
 
+
+
 const swaggerOptions = {
     definition: {
         openapi: "3.0.1",
